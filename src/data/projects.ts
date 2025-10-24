@@ -1,5 +1,6 @@
 import todo from "../assets/projects/what3letters/weather.png"
 import weather from "../assets/projects/what3letters/todo.png"
+import portfolio from "../assets/projects/what3letters/portfolio.png"
 
 
 export  type ProjectType ={
@@ -33,10 +34,24 @@ export const projects:ProjectType[]=[
 		about: "A MERN stack Todo app",
 		description: "",
 		thumbnail: todo,
-		tech: ["React", "Redux", "Local Storage", "SASS"],
+		tech: ["React", "JavaScript", "MangoDB","Express", "taiwindcss",],
 		github: "https://github.com/GhostRider9211/notes-app",
 		link: "https://notes-app-fawn-eight.vercel.app/",
 		type: "Web Application",
 },
+
+        {
+	id: 2,
+	title: "Portfolio",
+	about: "Personal portfolio to showcase my Skills and Projects",
+	description: "",
+	thumbnail: portfolio, // replace with your actual import
+	tech: ["React", "TypeScript", "Tailwind CSS", "SCSS"],
+	github: "https://github.com/GhostRider9211/Portfolio/", // update if different
+	link: "https://portfolio-phi-puce-16.vercel.app/", // update if different
+	type: "Web Application"
+        },
+
+
 
 ]
